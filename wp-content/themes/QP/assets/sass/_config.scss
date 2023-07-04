@@ -1,0 +1,38 @@
+$Principal: #ff731d;
+$Secundaria: #fff7e9;
+$AzulClaro: #5f9df7;
+$AzulEscuro: #1746a2;
+
+@font-face {
+  font-family: TTFirs;
+  src: url(../font/TTFirs/TTFirsNeueTrialRegular.ttf) format("opentype");
+}
+@font-face {
+  font-family: TTFirs;
+  font-weight: bold;
+  src: url(../font/TTFirs/TTFirsNeueTrialBold.ttf) format("opentype");
+}
+@font-face {
+  font-family: TTFirs;
+  font-style: italic;
+  src: url(../font/TTFirs/TTFirsNeueTrialItalic.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: IntegralCF;
+  src: url(../font/IntegralCF/Fontspring-DEMO-integralcf-regular.otf)
+    format("opentype");
+}
+
+@font-face {
+  font-family: IntegralCF;
+  font-weight: bold;
+  src: url(../font/IntegralCF/Fontspring-DEMO-integralcf-bold.otf)
+    format("opentype");
+}
+
+body {
+  background-color: $Secundaria !important;
+  transition: 1s;
+  scroll-behavior: smooth !important;
+}
